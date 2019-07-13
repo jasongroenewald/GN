@@ -54,13 +54,13 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #007bff !default;
+$blue:    #2A345D !default;
 $indigo:  #674eec !default;
 $purple:  #8445f7 !default;
 $pink:    #ff4169 !default;
-$red:     #c4183c !default;
+$red:     #C4183C !default;
 $orange:  #fb7906 !default;
-$yellow:  #ffb400 !default;
+$yellow:  #FFB400 !default;
 $green:   #57B367 !default;
 $teal:    #1adba2 !default;
 $cyan:    #00b8d8 !default;
@@ -583,10 +583,7 @@ $card-link-font-family:         $font-family-poppins !default;
 
 $card-paragraph-margin-bottom:  1.5625rem !default;
 
-$card-box-shadow:               0 .46875rem 2.1875rem rgba($blueish-grey, .1),
-                                0 .9375rem 1.40625rem rgba($blueish-grey, .1),
-                                0 .25rem .53125rem rgba($blueish-grey, .12),
-                                0 .125rem .1875rem rgba($blueish-grey, .1);
+$card-box-shadow:               0 4px 12px 0 rgba(0,0,0,0.10);
 
 $card-img-overlay-padding:      1.875rem 2.1875rem !default;
 $card-deck-margin:              .9375rem !default;
